@@ -1,0 +1,482 @@
+# Copyright (c) 1993-2009 Microsoft Corp
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+
+# localhost name resolution is handled within DNS itself.
+127.0.0.1 localhost
+::1 localhost
+
+127.0.0.1 localhost
+127.0.0.1 GAppProxy
+#172.16.110.60 GAppProxy
+127.0.0.1 theone
+#172.16.108.1 torServer
+172.16.110.60 torServer
+172.16.109.1 testdb2.branchitech.com
+172.16.109.1 testdb.branchitech.com
+#172.16.108.1 docker
+172.16.116.205 docker
+#172.16.115.1 docker
+
+
+#122.225.200.58 service.branchitech.com
+#122.224.124.26 service.branchitech.com
+172.16.108.1 service.branchitech.com
+
+
+#172.16.110.200 service.branchitech.com
+172.16.108.1 hostjs.branchitech.com
+172.16.108.1 configsvn.branchitech.com
+
+
+
+172.16.107.1 vm.branchitech.com
+172.16.107.10 testwps.branchitech.com
+#172.16.110.20 testwps.branchitech.com
+172.16.107.2 testldap.branchitech.com
+172.16.107.111 testmail.branchitech.com
+172.16.110.60 testftp.branchitech.com
+172.16.109.1 testoracle.branchitech.com
+#74.125.53.141 meta4ui.appspot.com
+#74.125.155.141 proxy4our.appspot.com
+172.16.110.60 quickbuild.branchitech.com
+172.16.107.10 wps62.branchitech.com
+172.16.107.53 testvm
+172.16.107.1 wpsclient
+#60.190.239.149 vpn.zj.chinamobile.com
+10.70.42.100 svn.oatest.zj.chinamobile.com
+172.16.2.84 qc.zoneland.net
+172.16.112.200 sdc.branchitech.com
+#172.16.1.70 pulse.branchitech.com
+
+172.16.107.208 zmccSocksProxy
+#192.168.172.159 zmccSocksProxy
+#172.16.1.198 zmccSocksProxy
+
+#127.0.0.1 zmccSocksProxy
+172.16.110.200 redis.test.local
+
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 win2003
+127.0.0.1 www.poweredbypulse.com
+
+127.0.0.1 singlewps
+172.16.110.61 wpsdb
+172.16.107.2 ldap.oatest.zj.chinamobile.com
+172.16.110.201 testmongo.branchitech.com
+
+#172.16.1.76 test.zj.chinamobile.com
+172.16.70.3 test851.zj.chinamobile.com
+172.16.110.53 vpnproxy.zj.chinamobile.com
+172.16.108.1 static.oatest.zj.chinamobile.com
+#172.16.108.1 static.zj.chinamobile.com
+172.16.106.63 test63.zj.chinamobile.com
+127.0.0.1 test.zj.chinamobile.com
+172.16.106.63 dmgr
+172.16.109.1 backup.branchitech.com
+#10.70.42.103 dmgr103
+#10.70.42.97 dmgr97
+
+#13.250.177.223 github.com
+#52.74.223.119 github.com
+
+#207.97.227.239 github.com
+#65.74.177.129 www.github.com
+#207.97.227.252 nodeload.github.com
+#207.97.227.243 raw.github.com
+#204.232.175.78 documentcloud.github.com
+#204.232.175.78 pages.github.com
+
+
+#185.199.110.154 github.githubassets.com
+
+#192.30.252.140 gist.github.com
+
+
+#10.70.42.95 dmgr95
+
+127.0.0.1 dmgr103
+127.0.0.1 dmgr97
+127.0.0.1 dmgr95
+
+
+
+#???
+127.0.0.1 atm.youku.com
+127.0.0.1 Fvid.atm.youku.com
+127.0.0.1 html.atm.youku.com
+127.0.0.1 valb.atm.youku.com
+127.0.0.1 valf.atm.youku.com
+127.0.0.1 valo.atm.youku.com
+127.0.0.1 valp.atm.youku.com
+127.0.0.1 lstat.youku.com
+127.0.0.1 speed.lstat.youku.com
+127.0.0.1 urchin.lstat.youku.com
+127.0.0.1 stat.youku.com
+127.0.0.1 static.lstat.youku.com
+127.0.0.1 valc.atm.youku.com
+127.0.0.1 vid.atm.youku.com
+127.0.0.1 walp.atm.youku.com
+#????
+127.0.0.1 a.baidu.com
+127.0.0.1 baidutv.baidu.com
+127.0.0.1 bar.baidu.com
+127.0.0.1 c.baidu.com
+127.0.0.1 cjhq.baidu.com
+#127.0.0.1 cpro.baidu.com
+127.0.0.1 drmcmm.baidu.com
+127.0.0.1 e.baidu.com
+127.0.0.1 eiv.baidu.com
+127.0.0.1 hc.baidu.com
+127.0.0.1 hm.baidu.com
+127.0.0.1 ma.baidu.com
+127.0.0.1 nsclick.baidu.com
+127.0.0.1 spcode.baidu.com
+127.0.0.1 tk.baidu.com
+127.0.0.1 union.baidu.com
+127.0.0.1 ucstat.baidu.com
+127.0.0.1 utility.baidu.com
+127.0.0.1 utk.baidu.com
+127.0.0.1 focusbaiduafp.allyes.com
+#????
+127.0.0.1 afp.qiyi.com
+127.0.0.1 focusbaiduafp.allyes.com
+#$127.0.0.1 img7.qiyipic.com pic9.qiyipic.com pic8.qiyipic.com pic7.qiyipic.com pic6.qiyipic.com pic5.qiyipic.com pic4.qiyipic.com pic3.qiyipic.com pic2.qiyipic.com pic1.qiyipic.com
+#CNTV
+127.0.0.1 a.cctv.com
+127.0.0.1 a.cntv.cn
+127.0.0.1 ad.cctv.com
+127.0.0.1 d.cntv.cn
+127.0.0.1 adguanggao.eee114.com
+127.0.0.1 cctv.adsunion.com
+#???????
+127.0.0.1 dcads.sina.com.cn
+#pptv
+127.0.0.1 pp2.pptv.com
+#????
+127.0.0.1 pro.letv.com
+#???????
+127.0.0.1 images.sohu.com
+@HostsX ?????????/????????
+#CNTV
+127.0.0.1 a.cctv.com
+127.0.0.1 a.cntv.cn
+127.0.0.1 ad.cctv.com
+127.0.0.1 d.cntv.cn
+127.0.0.1 adguanggao.eee114.com
+127.0.0.1 cctv.adsunion.com
+#??????
+127.0.0.1 acs.56.com
+127.0.0.1 acs.agent.56.com
+127.0.0.1 acs.agent.v-56.com
+127.0.0.1 bill.agent.56.com
+127.0.0.1 bill.agent.v-56.com
+127.0.0.1 stat.56.com
+127.0.0.1 stat2.corp.56.com
+127.0.0.1 union.56.com
+127.0.0.1 uvimage.56.com
+127.0.0.1 v16.56.com
+#6??
+127.0.0.1 pole.6rooms.com
+127.0.0.1 shrek.6.cn
+127.0.0.1 simba.6.cn
+127.0.0.1 union.6.cn
+#??????
+127.0.0.1 adextensioncontrol.tudou.com
+127.0.0.1 iwstat.tudou.com
+127.0.0.1 nstat.tudou.com
+127.0.0.1 stats.tudou.com
+127.0.0.1 *.p2v.tudou.com*
+127.0.0.1 at-img1.tdimg.com
+127.0.0.1 at-img2.tdimg.com
+127.0.0.1 at-img3.tdimg.com
+127.0.0.1 adplay.tudou.com
+127.0.0.1 adcontrol.tudou.com
+127.0.0.1 stat.tudou.com
+#??6??
+127.0.0.1 1.allyes.com.cn
+127.0.0.1 analytics.ku6.com
+127.0.0.1 gug.ku6cdn.com
+127.0.0.1 ku6.allyes.com
+127.0.0.1 ku6afp.allyes.com
+127.0.0.1 pq.stat.ku6.com
+127.0.0.1 st.vq.ku6.cn
+127.0.0.1 stat0.888.ku6.com
+127.0.0.1 stat1.888.ku6.com
+127.0.0.1 stat2.888.ku6.com
+127.0.0.1 stat3.888.ku6.com
+127.0.0.1 static.ku6.com
+127.0.0.1 v0.stat.ku6.com
+127.0.0.1 v1.stat.ku6.com
+127.0.0.1 v2.stat.ku6.com
+127.0.0.1 v3.stat.ku6.com
+#??????
+127.0.0.1 86file.megajoy.com
+127.0.0.1 86get.joy.cn
+127.0.0.1 86log.joy.cn
+#???????
+127.0.0.1 casting.openv.com
+127.0.0.1 m.openv.tv
+127.0.0.1 uniclick.openv.com
+#?????????Σ?
+#127.0.0.1 mcfg.sandai.net
+#127.0.0.1 biz5.sandai.net
+127.0.0.1 server1.adpolestar.net
+127.0.0.1 advstat.xunlei.com
+#127.0.0.1 mpv.sandai.net
+#??????
+127.0.0.1 adslvfile.qq.com
+127.0.0.1 maca.bot.nu
+127.0.0.1 www.y5y.com
+
+
+#127.0.0.0 www.hao123.com
+
+
+#82.135.118.30 www.google.com mail.google.com www.google.com.hk news.google.com.hk accounts.google.com safebrowsing.google.com apis.google.com appengine.google.com www.youtube.com
+#82.135.118.30 clients4.google.com drive.google.com talkgadget.google.com plus.google.com translate.googleapis.com www.googleapis.com safebrowsing-cache.google.com
+#maps.google.com
+#82.135.118.30 lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com oauth.googleusercontent.com clients1.google.com clients2.google.co clients5.google.com clients6.google.com chromedriver.storage.googleapis.com selenium-release.storage.googleapis.com gg.google.com
+#www.gstatic.com ssl.gstatic.com
+#82.135.118.30 0.drive.google.com 1.drive.google.com developer.android.com calendar.google.com i.ytimg.com s.youtube.com redirector.googlevideo.com pki.google.com appengine.google.com
+#82.135.118.30 chrome.google.com fonts.googleapis.com security.google.com lh3.ggpht.com lh4.ggpht.com inbox.google.com dl.google.com dl-ssl.google.com mail-attachment.googleusercontent.com doc-0g-90-docs.googleusercontent.com
+#82.135.118.30 cloud.google.com accounts.google.com.hk groups.google.com agent4cn1.appspot.com agent4cn.appspot.com agent4cn2.appspot.com
+#82.135.118.30 ajax.googleapis.com groups.google.com s.ytimg.com yt3.ggpht.com id.google.com.hk content.googleapis.com clients2.google.com ssl.google-analytics.com
+#82.135.118.30 myaccount.google.com support.google.com images-pos-opensocial.googleusercontent.com s2.googleusercontent.com 14.client-channel.google.com www.youtube-nocookie.com
+#82.135.118.30 code.google.com clients2.googleusercontent.com admin.google.com selenium.googlecode.com photos.google.com docs.google.com
+#82.135.118.30 plus.url.google.com console.developers.google.com googlechromereleases.blogspot.hk tools.google.com
+#82.135.118.30 0.client-channel.google.com 1.client-channel.google.com android.clients.google.com firebase.google.com console.firebase.google.com pki.google.com
+#82.135.118.30 autoproxy-gfwlist.googlecode.com goo.gl play.google.com webcache.googleusercontent.com
+#82.135.118.30 sites.google.com gerrit.googlesource.com storage.googleapis.com commondatastorage.googleapis.com android.googlesource.com googlecode.l.googleusercontent.com
+#82.135.118.30 translate.google.com.hk godagentp01.appspot.com godagentp02.appspot.com godagentp03.appspot.com godagentp04.appspot.com agent4hz2.appspot.com agent4hz1.appspot.com
+#82.135.118.30 www.google-analytics.com ipv4.google.com agent4hz3.appspot.com agent4hz4.appspot.com agent4hz5.appspot.com qxoinfocenter.appspot.com mail-settings.google.com
+#82.135.118.30 mtalk.google.com doc-0c-3s-docs.googleusercontent.com doc-0o-3s-docs.googleusercontent.com books.google.com.hk kesavamanitp.blogspot.com www.google.com.sg encrypted.google.com webcache.googleusercontent.com
+#82.135.118.30 encrypted.google.com www.gstatic.com scholar.google.com
+
+#173.194.193.108 smtp.gmail.com imap.gmail.com pop.gmail.com
+
+
+
+
+172.16.70.2 devfile.sh.unicom.local
+172.16.70.10 devweb.sh.unicom.local
+172.16.66.100 demomss.ah.unicom.local
+172.16.122.21 demowork.ah.unicom.local
+172.16.122.20 was.ah.unicom.local select.zj.chinamobile.com
+#172.16.121.20 was2.ah.unicom.local
+172.16.120.20 ldap.ah.unicom.local
+#54.231.8.224 cfengine.com
+
+172.16.70.2 devfile.sh.unicom.local
+172.16.70.10 devweb.sh.unicom.local
+
+
+#58.61.39.134 hub5idx.shub.sandai.net
+#113.215.8.114 hub5pr.sandai.net
+
+
+10.70.41.91 impt.was.zj.chinamobile.com
+10.70.41.90 base.was.zj.chinamobile.com
+10.70.41.92 comm.was.zj.chinamobile.com
+10.70.41.158 static.zj.chinamobile.com
+10.70.102.96 oalcen.zj.chinamobile.com
+10.70.102.95 oalogin.zj.chinamobile.com
+10.70.243.219 ssoportal.zj.chinamobile.com
+#10.70.243.219 portal.zj.chinamobile.com
+10.70.41.95 portal.zj.chinamobile.com
+10.70.102.103 oapub.zj.chinamobile.com
+10.70.41.145 applocation.zj.chinamobile.com
+10.70.102.44 mailhqc02.zj.chinamobile.com
+10.70.41.209 app58.zj.chinamobile.com
+10.70.41.5 misapp1.zj.cmcc
+10.70.102.114 smap.zj.chinamobile.com
+
+#172.16.107.2 ldapsvr1.zj.chinamobile.com
+
+
+10.78.245.79 79.zj.chinamobile.com
+10.70.102.78 tz-webdev05.zj.chinamobile.com
+
+
+#101.68.67.18 webdev.zoneland.net
+# BEGIN section for OpenVPN Client SSL sites
+#127.94.0.1 client.openvpn.net
+# END section for OpenVPN Client SSL sites
+
+
+
+127.0.0.1 test01.test.com test02.test.com
+172.16.65.31 zyonline.zoneland.net
+172.16.67.8 678.zoneland.net
+172.16.67.9 679.zoneland.net
+172.16.1.70 170.zoneland.net
+172.16.1.70 170x.zoneland.net
+
+
+
+
+172.17.15.167 cmosucc167
+172.17.15.168 cmosucc168
+172.17.15.169 ue169
+172.17.15.170 ue170
+172.17.15.171 ue171
+172.17.15.172 ue172
+172.16.120.102 ldap102 portal102
+172.16.120.103 ldap103 portal103
+172.16.120.108 wrdp108
+172.16.120.109 wrdp109
+
+
+172.16.65.31 test1.com
+
+172.16.1.70 wrdp.oatest.migu.cn
+#223.105.0.221 oatest.migu.cn
+#223.105.0.222 sso.oatest.migu.cn
+
+172.23.22.68 githost
+#127.0.0.1 www.genuitec.com
+
+
+172.23.22.48 component.js.cmcc
+172.23.22.49 business.js.cmcc
+#172.23.22.105 selenium_grid
+
+172.16.116.205 selenium_grid ldap.zone
+
+10.70.41.94 cs.was.zj.chinamobile.com
+10.70.41.145 applocation.zj.chinamobile.com
+10.70.41.158 static.zj.chinamobile.com
+10.70.42.94 webdevtest2.zj.chinamobile.com
+172.16.2.125 vcenter.zoneland.net
+
+#20.26.3.199 4assowebtest.yw.zj.chinamobile.com
+127.0.0.1 test70.zj.chinamobile.com
+
+
+172.16.114.11 test11.zj.chinamobile.com wrdp-test23.zj.chinamobile.com
+
+#127.0.0.1 adu.g-fox.cn i.g-fox.cn sb.firefox.com.cn survey.mozilla.com.cn
+127.0.0.1 user1.game.qq.com
+172.16.116.205 webpagetest.zone
+#172.16.101.31 dbserver
+172.16.92.50 dbserver
+
+172.16.116.205 wrdp_githost.zone
+#49.74.217.110 githost.zone
+
+#203.142.105.154 cmhkproxytest.hk.chinamobile.com
+#203.142.105.150 cmhkproxy.hk.chinamobile.com
+#122.224.124.26 todouat.hk.chinamobile.com
+
+#127.0.0.1 www.ej-technologies.com
+#172.16.116.85 tomcat.example.com
+#192.168.3.61 windows10.microdone.cn
+#127.0.0.1 8.tlu.dl.delivery.mp.microsoft.com
+
+
+
+10.76.227.24 oadwH5App3.zj.chinamobile.com oadwH5App3f.zj.chinamobile.com
+10.76.238.114 oadwH5App4.zj.chinamobile.com oadwH5App4f.zj.chinamobile.com
+10.76.227.25 oadwH5App5.zj.chinamobile.com oadwH5App5f.zj.chinamobile.com
+10.76.238.115 oadwH5App6.zj.chinamobile.com oadwH5App6f.zj.chinamobile.com
+
+10.78.224.150 oadwH5App1.zj.chinamobile.com oadwH5App1f.zj.chinamobile.com
+10.78.133.151 oadwH5App2.zj.chinamobile.com oadwH5App2f.zj.chinamobile.com
+
+#20.26.33.48 wrdpV3Dev.zj.chinamobile.com wrdpV3Devf.zj.chinamobile.com
+#20.26.38.69 wrdpV3Uat.zj.chinamobile.com wrdpV3Uatf.zj.chinamobile.com
+#20.26.38.70 test70.zj.chinamobile.com
+#20.26.33.48 wrdpV3hDev.zj.chinamobile.com wrdpV3hDevf.zj.chinamobile.com
+#20.26.38.69 wrdpV3hUat.zj.chinamobile.com wrdpV3hUatf.zj.chinamobile.com
+#20.26.38.70 test70.zj.chinamobile.com
+#20.26.33.89 wrdpMoaDev.zj.chinamobile.com wrdpMoaDevf.zj.chinamobile.com
+
+10.70.42.96 test96.zj.chinamobile.com
+127.0.0.1 activate.navicat.com
+127.0.0.1 watson.telemetry.microsoft.com c.urs.microsoft.com 8.tlu.dl.delivery.mp.microsoft.com
+127.0.0.1 d3g.qq.com audienceline.com c
+#www.google-analytics.com eptavou.net
+
+
+172.16.116.205 www.test1.zone
+
+172.16.1.70 wrdp70.k3s110.demo
+
+172.16.110.200 wrdp110.k3s110.demo
+
+
+#23.21.70.111 git.heroku.com
+
+127.0.0.1 news.qhstatic.com
+
+127.0.0.1 show.g.mediav.com
+127.0.0.1 www.360kuai.com
+#127.0.0.1 show.look.360.cn
+127.0.0.1 tongji.flash.cn
+127.0.0.1 mini.flash.2144.com
+
+#127.0.0.1 account.jetbrains.com
+#127.0.0.1 www.jetbrains.com
+
+172.16.1.70 cas1.test.com cas2.test.com
+127.0.0.1 88yg.cc pic.cytcm.com no-thanks.invalid
+
+
+127.0.0.1 robotu.test.mss.ctc.com
+127.0.0.1 robotp.test.mss.ctc.com
+
+127.0.0.1 support.i-search.com.cn
+#127.0.0.1 dgss0.bdstatic.com dgss1.bdstatic.com dgss2.bdstatic.com dgss3.bdstatic.com hm.baidu.com eclick.baidu.com as1.m.hao123.com
+
+3.225.187.198 api.us-east-1.starter.openshift-online.com
+#54.175.211.146
+#52.71.160.177
+# 3.233.47.7
+# 18.209.249.204
+# 3.233.13.126
+# 3.225.187.198
+
+#122.224.124.30 samples.o2oa.net u.o2oa.net git.o2oa.net appdev.o2oa.net develop.o2oa.net
+
+#20.26.33.48 v3uat.zj.chinamobile.com
+#20.26.38.70 test70.zj.chinamobile.com static.zj.chinamobile.com
+
+127.0.0.1 img.dlads.cn 3193.dlads.cn jg.wensixuetang.com ayx600.com mqjs.jsdocker.com
+
+10.128.22.191 harbor.sh-chinatelecom.yundao.com.cn
+10.128.20.101 slice01.harbor.sh-chinatelecom.yundao.com.cn
+
+127.0.0.1 hm.baidu.com hf.kaiyiluye.com pic.monidai.com img2.dingshengjishu.com
+#ts1.lslkkyj.com 
+#xxl.kaiyiluye.com 
+#pc.weizhenwx.com
+
+192.168.19.201 vm1
+
+# Added by Docker Desktop
+172.16.1.70 host.docker.internal
+172.16.1.70 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+
+172.16.109.18 testsftp1 testsftp2  testsftp3
+
+127.0.0.1 cas.example.org
+127.0.0.1  auth-server
+172.16.1.70 cas.zone cas1.zone jxyd.zone jxyd2.zone
